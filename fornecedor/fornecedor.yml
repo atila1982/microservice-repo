@@ -3,8 +3,8 @@ spring:
     driver-class-name:com.mysql.cj.jdbc.Driver
     password: Sapatada1982#
     username: root
-    url: jdbc:mysql://localhost/fornecedor?characterEncoding=utf8&useTimezone=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
-spring.jpa.properties.hibernate.hbm2ddl.auto = update
+    url: 'jdbc:mysql://localhost/fornecedor?characterEncoding=utf8&useTimezone=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+spring.jpa.properties.hibernate.hbm2ddl.auto = update'
   jpa:
     hibernate:
       ddl-auto: update
